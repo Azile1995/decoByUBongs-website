@@ -1,0 +1,10 @@
+<section class="section">
+<h3>Add New Service</h3>
+
+
+<form (ngSubmit)="submit()">
+<input [(ngModel)]="model.title" name="title" placeholder="Service title" required />
+<textarea [(ngModel)]="model.description" name="description" placeholder="Description"></textarea>
+<button type="submit">Add Service</button>
+</form>
+</section>

@@ -1,0 +1,45 @@
+.contact-details {
+padding: 3rem 2rem;
+background: #fafafa;
+border-radius: 12px;
+}
+
+
+.contact-details h2 {
+margin-bottom: 1.5rem;
+}
+
+
+.contact-details ul {
+list-style: none;
+padding: 0;
+}
+
+
+.contact-details li {
+margin-bottom: 1rem;
+font-size: 1rem;
+}
+
+
+.contact-details a {
+color: #8b5e3c;
+text-decoration: none;
+}
+
+
+.contact-details a:hover {
+text-decoration: underline;
+}
+
+
+.icon {
+font-size: 1.2rem;
+margin-right: 0.5rem;
+}
+
+
+.whatsapp a {
+color: #25D366;
+font-weight: 600;
+}

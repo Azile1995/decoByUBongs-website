@@ -1,0 +1,26 @@
+.toggle-card {
+  border: 1px solid hwb(0 45% 31%);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.content {
+  margin-top: 1rem;
+  color: #555;
+}

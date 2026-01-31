@@ -1,0 +1,15 @@
+
+<div class="toggle-card">
+  <div class="header" (click)="toggle()">
+    <h2>Our Mission</h2>
+    <span class="arrow" [class.open]="isOpen">▼</span>
+  </div>
+
+  <div class="content" *ngIf="isOpen">
+    <p>
+      To be the premier partner in crafting dream celebrations, where creativity,
+    innovation, and attention to detail elevate life's special moments, leaving our clients and their guests speechless.
+    </p>
+  </div>
+</div>
+

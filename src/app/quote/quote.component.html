@@ -1,0 +1,46 @@
+<section class="quote">
+  <h1>Get a Quote</h1>
+  <p>Tell us about your project and we’ll get back to you.</p>
+
+  <form [formGroup]="quoteForm" (ngSubmit)="submitQuote()">
+
+    <label>
+      Name
+      <input type="text" formControlName="name" />
+      <small *ngIf="quoteForm.get('name')?.touched && quoteForm.get('name')?.invalid">
+        Name is required
+      </small>
+    </label>
+
+    <label>
+      Email
+      <input type="email" formControlName="email" />
+      <small *ngIf="quoteForm.get('email')?.touched && quoteForm.get('email')?.invalid">
+        Valid email is required
+      </small>
+    </label>
+
+    <label>
+      Phone
+      <input type="text" formControlName="phone" />
+    </label>
+
+    <label>
+      Service
+      <select formControlName="service">
+        <option value="">Select a service</option>
+        <option>Birthday Celebration</option>
+        <option>Umembezo Ceremony</option>
+        <option>Lobola Negotiations</option>
+        <option>Romantic Picnic</option>
+      </select>
+    </label>
+
+    <label>
+      Project Details
+      <textarea rows="4" formControlName="message"></textarea>
+    </label>
+
+    <button type="submit">Request Quote</button>
+  </form>
+</section>

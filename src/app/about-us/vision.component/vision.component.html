@@ -1,0 +1,15 @@
+<div class="toggle-card">
+  <div class="header" (click)="toggle()">
+    <h2>Our Vision</h2>
+    <span class="arrow" [class.open]="isOpen">▼</span>
+  </div>
+
+  <div class="content" *ngIf="isOpen">
+    <p>
+      Our vision is to be the leading provider of innovative and personalized event experiences,
+      where every detail is thoughtfully curated to reflect the unique essence of our clients 
+      and their celebrations.
+    </p>
+  </div>
+</div>
+
