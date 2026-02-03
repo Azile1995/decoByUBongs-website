@@ -11,7 +11,7 @@ export const routes: Routes = [
 { path: '', component: HomeComponent },
 { path: 'services', component: ServicesComponent },
 { path: 'gallery', component: GalleryComponent },
-{ path: 'contact', component: AboutUsComponent },
+{ path: 'about-us', component: AboutUsComponent },
 { path: 'admin/services', component: ServiceFormComponent },
 { path: 'quote', component: QuoteComponent },
 {
