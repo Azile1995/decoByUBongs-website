@@ -1,13 +1,17 @@
 .navbar {
 display: flex;
 justify-content: space-between;
-padding: 10px 10px;
-background: #fff;
+padding: 10px 5px;
+background: hwb(317 18% 42%);
 box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
-.logo { color: #8b5e3c; }
+.logo { 
+color: rgb(127, 139, 60); 
+font-size: 24px;
+font-style: italic;
+}
 nav a {
-margin-left: 20px;
+margin-left: 10px;
 text-decoration: none;
 color: #333;
 }
